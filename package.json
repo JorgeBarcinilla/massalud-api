@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "serve:prod": "NODE_ENV=production pm2 start server.js --name massalud-api"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.2.3",
