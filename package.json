@@ -11,10 +11,10 @@
     "serve:prod": "NODE_ENV=production pm2 start server.js --name massalud-api"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.2.3",
-    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/plugin-i18n": "4.25.13",
+    "@strapi/plugin-users-permissions": "4.25.13",
     "@strapi/provider-upload-cloudinary": "^4.2.3",
-    "@strapi/strapi": "4.2.3",
+    "@strapi/strapi": "4.25.13",
     "pg": "8.6.0",
     "strapi-plugin-populate-deep": "^0.1.2"
   },
